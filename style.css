@@ -1,0 +1,37 @@
+.background{
+    background-image: url("../images/image10.jpg");
+    /* height: auto;
+    width: auto; */
+    background-repeat: repeat-y;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    /* backdrop-filter: blur(8px); */
+}
+nav{
+    margin: 50px;
+    margin-top: 30px;
+    color: maroon;
+}
+header .navbar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+header .navbar .nav-item{
+    border-right: 100px;
+}
+header nav ul .nav-link{
+    color: maroon;
+}
+div p{
+    color:#f6fae3;
+    margin-left: 50px;
+    font-size:xx-large;
+    animation: text_reveal 0.5s ease forwards;
+}
+div .btn{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 250px;
+}
+div footer{
+    background-color: black;
+}
